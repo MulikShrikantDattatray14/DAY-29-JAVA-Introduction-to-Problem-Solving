@@ -9,6 +9,36 @@ D) n/2
 
 Ans: B) floor(logN)
 
+CODE: 
+
+//Q1) Given N , How many times we need to divide N by 2 , so remainder remains 1.
+
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+        int A;
+    int ans=0;
+        Scanner sc= new Scanner(System.in);
+      A=sc.nextInt();
+      for(int i=1;((Math.pow(2, i)  <=A));i++){
+        if(( (Math.pow(2, i)  <=A)) )ans=i;
+        
+      }
+       
+        System.out.print(ans);
+          
+          
+        
+        
+    }
+}
+
 
 
 Hint:  In the question we are asked for number of times means exact number not the time complexity which tells how a particular solution or algorithm  scales not the exact number of executions.
