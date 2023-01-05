@@ -1,0 +1,14 @@
+Q9. Number of elements in a range
+
+How many elements are there between [135, 246] (inclusive of them) ?
+
+Choose the correct answer from below:
+A) 111
+B) 112
+C) 113
+D) 114
+
+Ans : B) 112
+Hint : The number of elements in the range[a,b] is
+b - a + 1
+246 - 135 + 1 = 112
